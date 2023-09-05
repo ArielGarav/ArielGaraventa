@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../Componentes/Layout/Layout";
 import { Route, Routes as ReactDomRoutes } from "react-router";
-import Test from "../Componentes/Test/test";
+import Test from "../Componentes/Test/Test";
 import About from "../Componentes/About/About";
 import ProyectsCards from "../Componentes/Proyects/ProyectsCards";
 
