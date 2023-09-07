@@ -4,6 +4,7 @@ import { Route, Routes as ReactDomRoutes } from "react-router";
 import Test from "../Componentes/Test/Test";
 import About from "../Componentes/About/About";
 import ProyectsCards from "../Componentes/Proyects/ProyectsCards";
+import Proyects from "../Componentes/Proyects/Proyects";
 
 const Routes = () => {
   return (
@@ -12,7 +13,7 @@ const Routes = () => {
         <ReactDomRoutes>
           <Route path="/" element={<Test />} />
           <Route path="About" element={<About />} />
-          <Route path="Proyects" element={<ProyectsCards />} />
+          <Route path="Proyects" element={<Proyects />} />
         </ReactDomRoutes>
       </Layout>
     </>

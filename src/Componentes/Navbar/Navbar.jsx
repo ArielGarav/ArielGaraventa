@@ -10,6 +10,9 @@ import {
   UlLinks,
 } from "./NavbarStyles";
 
+const StyledNavbar = styled.div`
+  background-color: #090909;
+`;
 import { FaBars, FaTimes } from "react-icons/fa";
 import styled from "styled-components";
 const Navbar = () => {
@@ -22,9 +25,7 @@ const Navbar = () => {
   const handleMenuToggle = () => {
     setclick(!click);
   };
-  const StyledNavbar = styled.div`
-    background-color: #090909;
-  `;
+
   return (
     <>
       <StyledNavbar>

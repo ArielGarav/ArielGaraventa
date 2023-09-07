@@ -22,6 +22,14 @@ const LanguagesImages = styled(motion.img)`
 `;
 const AnimatedH2 = styled(motion.h2)`
   font-size: 32px;
+  text-align: center;
+  padding-bottom: 40px;
+  @media (max-width: 800px) {
+    margin-top: 50px;
+  }
+  @media (max-width: 500px) {
+    margin-top: 150px;
+  }
 `;
 const Languages = () => {
   const containerVariants = {
@@ -30,9 +38,7 @@ const Languages = () => {
   };
   return (
     <>
-      <AnimatedH2 initial={{ scale: 1 }} whileHover={{ scale: 1.1 }}>
-        My Tech-Stack
-      </AnimatedH2>
+      <AnimatedH2>My Tech-Stack</AnimatedH2>
       <LanguagesContainer>
         <LanguagesImagesContainer
           initial="hidden"

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import styled from "styled-components";
 import { FiArrowUpRight } from "react-icons/fi";
 import { motion } from "framer-motion";
@@ -25,14 +25,14 @@ const CardContainer = styled.div`
   width: 250px;
   height: 250px;
   background-color: #f2f2f2;
-  border-radius: 120px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 40px;
   overflow: hidden;
   perspective: 1000px;
-  box-shadow: 0 0 0 5px #ffffff80;
+  box-shadow: 0 0 0 5px #97feed;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   &:hover {
     transform: scale(1.05);
@@ -43,7 +43,7 @@ const CardContainer = styled.div`
 const CardSVG = styled.img`
   width: 100%;
   height: 100%;
-
+  background-color: transparent;
   fill: #333;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 `;
@@ -120,48 +120,22 @@ const ContainerTextProyects = styled.h2`
   align-items: center;
   justify-content: center;
 `;
-const useIsInViewport = () => {
-  const [isInViewport, setIsInViewport] = useState(false);
-  const ref = useRef(null);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setIsInViewport(entry.isIntersecting);
-      },
-      { threshold: 0.5 } // Adjust this threshold as needed
-    );
-
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
-
-    return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
-      }
-    };
-  }, []);
-
-  return { ref, isInViewport };
-};
 const ProyectsCards = () => {
   const containerVariants = {
     hidden: { y: -100, opacity: 0 },
     visible: { y: 0, opacity: 1 },
   };
 
-  const { ref, isInViewport } = useIsInViewport();
-
   return (
     <>
       <ContainerTotal>
         <ContainerTextProyects>
-          <TextProyects ref={ref}>Proyects</TextProyects>
+          <TextProyects>Proyects</TextProyects>
         </ContainerTextProyects>
         <TotalCardContainer
           initial="hidden"
-          animate={isInViewport ? "visible" : "hidden"} // Animate when in viewport
+          animate="visible"
           variants={containerVariants}
           transition={{ duration: 1, type: "spring", stiffness: 50 }}
         >
@@ -319,4 +293,5 @@ const ProyectsCards = () => {
     </>
   );
 };
+
 export default ProyectsCards;
