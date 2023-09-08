@@ -4,7 +4,6 @@ export const AboutTotalContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 85vh;
 `;
 export const AboutContainer = styled.div`
   border: 2px solid #97feed;
@@ -24,9 +23,7 @@ export const AboutTitle = styled.h1`
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  @media (max-width: 1621px) {
-    margin-top: 350px;
-  }
+  margin-top: 50px;
 `;
 export const AboutParrafo = styled.p`
   color: white;
