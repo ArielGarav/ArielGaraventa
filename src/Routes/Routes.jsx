@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../Componentes/Layout/Layout";
 import { Route, Routes as ReactDomRoutes, useLocation } from "react-router";
-import Test from "../Componentes/Test/Test";
+import HeroLanding from "../Componentes/HeroLanding/HeroLanding";
 import About from "../Componentes/About/About";
 import Proyects from "../Componentes/Proyects/Proyects";
 import projectData from "../Componentes/Proyects/ProyectData";
@@ -21,7 +21,7 @@ const Routes = () => {
     <>
       <Layout>
         <ReactDomRoutes>
-          <Route path="/" element={<Test />} />
+          <Route path="/" element={<HeroLanding />} />
           <Route path="About" element={<About />} />
           <Route path="Proyects" element={<Proyects data={projectData} />} />
           <Route path="Contact" element={<Contact />} />
