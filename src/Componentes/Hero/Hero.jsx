@@ -5,6 +5,7 @@ import TypingComponent from "../Typing/TypingComponent/TypingComponent";
 import { keyframes } from "styled-components";
 import Languages from "../Languages/Languages";
 import { socialLinks } from "../UI/SocialLinks/socialLinks";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   display: flex;
@@ -196,12 +197,14 @@ const Hero = () => {
                 <Text>Download CV</Text>
               </SvgWrapper>
             </a>
-            <SvgWrapper>
-              <Shape height="60" width="190">
-                <rect height="60" width="190"></rect>
-              </Shape>
-              <Text>Contact</Text>
-            </SvgWrapper>
+            <Link to="/Contact">
+              <SvgWrapper>
+                <Shape height="60" width="190">
+                  <rect height="60" width="190"></rect>
+                </Shape>
+                <Text>Contact</Text>
+              </SvgWrapper>
+            </Link>
           </ButtonGroup>
           <SocialLinksWrapper>
             <SocialLink1 href={socialLinks.Github} target="_blank">
