@@ -19,7 +19,7 @@ const Proyects = ({ data }) => {
   return (
     <CenteredContainer>
       <TitleProyects>Projects</TitleProyects>
-      <Subtitle>Here are my main projects</Subtitle>
+      <Subtitle>Here Are My Main Projects</Subtitle>
       <Wrapper>
         {data &&
           data.map((project, index) => (

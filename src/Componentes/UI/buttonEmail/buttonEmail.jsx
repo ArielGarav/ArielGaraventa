@@ -43,11 +43,12 @@ const StyledButton = styled.a`
   box-sizing: inherit;
   background-color: transparent;
   outline-width: 0;
-  text-decoration: underline;
+  text-decoration: none;
   border: 1px solid rgb(233, 237, 239);
   padding: 1em;
   font-weight: normal;
   color: rgb(233, 237, 239);
+  border-radius: 20px;
 `;
 
 const ButtonComponent = () => {

@@ -49,6 +49,13 @@ const Navbar = () => {
               <div>
                 <UlLinks>
                   <LILinks>
+                    <NavLink to={"Contact"}>Contact</NavLink>
+                  </LILinks>
+                </UlLinks>
+              </div>
+              <div>
+                <UlLinks>
+                  <LILinks>
                     <NavLink to={"About"}>About Me</NavLink>
                   </LILinks>
                 </UlLinks>

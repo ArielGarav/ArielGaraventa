@@ -13,6 +13,8 @@ import {
   GetInTouchText,
 } from "./ContactStyles";
 import ButtonComponent from "../UI/buttonEmail/buttonEmail";
+import { socialLinks } from "../UI/SocialLinks/socialLinks";
+import { useLocation } from "react-router-dom";
 
 const SocialIcon = ({ href, icon, isGithub = false }) => {
   const [ref, inView] = useInView({
@@ -45,26 +47,29 @@ const SocialIcon = ({ href, icon, isGithub = false }) => {
 };
 
 const Contact = () => {
+  const location = useLocation(); // Obtiene la ruta actual
+
+  const isContactRoute = location.pathname === "/Contact"; // Verifica si la ruta es "/Contact"
+
   return (
     <>
-      <TotalContactContainer>
+      <TotalContactContainer
+        style={{ height: isContactRoute ? "70vh" : "40vh" }}
+      >
         <GetInTouchText>Get in touch.</GetInTouchText>
         <CreateIdeasText>
           Let me create your ideas on a web page
         </CreateIdeasText>
         <ButtonComponent />
         <ContactContainer>
+          <SocialIcon href={socialLinks.Twitter} icon={<AiOutlineTwitter />} />
           <SocialIcon
-            href="https://twitter.com/Arielgarav?t=-nwmYYRkZZP7rK7knXtMoA&s=08"
-            icon={<AiOutlineTwitter />}
-          />
-          <SocialIcon
-            href="https://github.com/ArielGarav"
+            href={socialLinks.Github}
             icon={<AiOutlineGithub />}
             isGithub={true}
           />
           <SocialIcon
-            href="https://www.linkedin.com/in/ariel-garaventa-349361274/"
+            href={socialLinks.Linkedin}
             icon={<AiOutlineLinkedin />}
           />
         </ContactContainer>

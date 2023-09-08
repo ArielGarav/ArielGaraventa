@@ -14,6 +14,7 @@ const projectData = [
       "https://www.svgrepo.com/show/452045/js.svg",
     ],
   },
+
   {
     title: "Crazy Fishing",
     description:
