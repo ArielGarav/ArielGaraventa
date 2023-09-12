@@ -12,11 +12,11 @@ const AboutMe = () => {
       <AboutTitle>About Me</AboutTitle>
       <AboutContainer>
         <AboutParrafo>
-          I'm Ariel Garaventa, a recent graduate of Nucba's Full Stack Web
-          Development academy, and I'm 22 years old. My journey in programming
-          began with a passion for creation and problem-solving, which
-          eventually led me to master HTML, CSS, JavaScript, TypeScript, and
-          dive deep into the world of modern web technologies.
+          I am Ariel Garaventa, recently graduated from the Nucba Full Stack Web
+          Development academy, 22 years old. My exciting journey in the world of
+          programming began in the middle of the pandemic. What was initially a
+          casual interest transformed into a passion for creating and solving
+          technological challenges.
         </AboutParrafo>
         <AboutParrafo>
           My focus has been on building robust and user-friendly web
