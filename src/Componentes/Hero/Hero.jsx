@@ -54,11 +54,11 @@ const HeroText = styled.div`
   @media (max-width: 500px) {
     width: 100%;
     h1 {
-      font-size: 2.5rem; /* Cambia el tamaño de fuente de h1 a 2.5rem en pantallas más pequeñas */
+      font-size: 2.5rem;
     }
 
     p {
-      font-size: 16px; /* Cambia el tamaño de fuente de p a 16px en pantallas más pequeñas */
+      font-size: 16px;
       text-align: center;
     }
     padding: 7px;
@@ -80,7 +80,7 @@ const ButtonGroup = styled.div`
 `;
 const SocialLinksWrapper = styled.div`
   display: flex;
-  width: 380px; /* Ajusta el ancho según tus necesidades */
+  width: 380px;
   gap: 15px;
   justify-content: center;
   align-items: center;
@@ -104,7 +104,6 @@ const bounceAnimation = keyframes`
   }
 `;
 
-// Define el estilo base del botón
 const SocialLinkBase = styled.a`
   position: relative;
   display: flex;
@@ -122,13 +121,11 @@ const SocialLinkBase = styled.a`
   }
 `;
 
-// Estiliza el primer botón
 const SocialLink1 = styled(SocialLinkBase)`
   background-color: #1a1e22;
   color: whitesmoke;
 `;
 
-// Estiliza el segundo botón
 const SocialLink2 = styled(SocialLinkBase)`
   background-color: #0a66c2;
   color: whitesmoke;
@@ -185,8 +182,8 @@ const Hero = () => {
 
           <h1>Ariel Garaventa</h1>
           <p>
-            I'm a passionate developer who excels at crafting exceptional
-            products with cutting-edge technology.
+            Creator and builder of Solutions, navigating the waters of Web
+            Technologies.
           </p>
           <ButtonGroup>
             <a href={socialLinks.Cv} target="_blank" rel="noopener noreferrer">
