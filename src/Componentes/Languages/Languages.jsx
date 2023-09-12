@@ -49,63 +49,62 @@ const Languages = () => {
           <LanguagesImages
             src="https://www.svgrepo.com/show/452228/html-5.svg"
             alt=""
-            initial={{ y: 100 }} // Initial position below the container
-            animate={{ y: 0 }} // Target position at the top of the container
-            transition={{ duration: 1, type: "spring", stiffness: 40 }} // Animation details
-            whileHover={{ scale: 1.3, cursor: "pointer" }} // Efecto de escala al pasar el mouse
-          />{" "}
+            initial={{ y: 100 }}
+            animate={{ y: 0 }}
+            transition={{ duration: 1, type: "spring", stiffness: 40 }}
+            whileHover={{ scale: 1.3 }}
+          />
           <LanguagesImages
             src="https://www.svgrepo.com/show/452185/css-3.svg"
-            whileHover={{ scale: 1.3, cursor: "pointer" }} // Efecto de escala al pasar el mouse
+            whileHover={{ scale: 1.3 }}
             alt=""
-          />{" "}
+          />
           <LanguagesImages
             src="https://www.svgrepo.com/show/452045/js.svg"
-            whileHover={{ scale: 1.3, cursor: "pointer" }} // Efecto de escala al pasar el mouse
+            whileHover={{ scale: 1.3 }}
             alt=""
           />
           <LanguagesImages
             src="https://www.svgrepo.com/show/374146/typescript-official.svg"
-            whileHover={{ scale: 1.3, cursor: "pointer" }} // Efecto de escala al pasar el mouse
+            whileHover={{ scale: 1.3 }}
             alt=""
-          />{" "}
+          />
           <LanguagesImages
             src="https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg"
-            whileHover={{ scale: 1.3, cursor: "pointer" }} // Efecto de escala al pasar el mouse
-            alt=""
-          />{" "}
+            whileHover={{ scale: 1.3 }}
+          />
           <LanguagesImages
             src="https://www.svgrepo.com/show/376337/node-js.svg"
-            whileHover={{ scale: 1.3, cursor: "pointer" }} // Efecto de escala al pasar el mouse
+            whileHover={{ scale: 1.3 }}
             style={{ background: "white", borderRadius: "50%" }}
           />
           <LanguagesImages
             src="https://www.svgrepo.com/show/303232/mongodb-logo.svg"
-            whileHover={{ scale: 1.3, cursor: "pointer" }} // Efecto de escala al pasar el mouse
+            whileHover={{ scale: 1.3 }}
             style={{
               background: "white",
               borderRadius: "50%",
               padding: "4px",
-            }} // Estilos específicos para esta imagen
+            }}
           />
           <LanguagesImages
             src="https://www.svgrepo.com/show/303251/mysql-logo.svg"
-            whileHover={{ scale: 1.3, cursor: "pointer" }} // Efecto de escala al pasar el mouse
-            style={{ background: "white", borderRadius: "50%" }} // Estilos específicos para esta imagen
+            whileHover={{ scale: 1.3 }}
+            style={{ background: "white", borderRadius: "50%" }}
           />
           <LanguagesImages
             src="https://www.styled-components.com/atom.png"
-            whileHover={{ scale: 1.3, cursor: "pointer" }} // Efecto de escala al pasar el mouse
+            whileHover={{ scale: 1.3 }}
             alt=""
-          />{" "}
+          />
           <LanguagesImages
             src="https://www.svgrepo.com/show/506497/github.svg"
-            whileHover={{ scale: 1.3, cursor: "pointer" }} // Efecto de escala al pasar el mouse
+            whileHover={{ scale: 1.3 }} // Efecto de escala al pasar el mouse
             style={{ background: "white", borderRadius: "50%" }}
             alt=""
           />{" "}
         </LanguagesImagesContainer>
-      </LanguagesContainer>{" "}
+      </LanguagesContainer>
     </>
   );
 };
