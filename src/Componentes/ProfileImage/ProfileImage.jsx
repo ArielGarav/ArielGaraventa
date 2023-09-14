@@ -11,7 +11,7 @@ const ProfileImage = () => {
   return (
     <>
       <Image
-        src="https://res.cloudinary.com/debcgjfr8/image/upload/v1694025689/PortFolio/Portfolio%20Image%20Profile/bu5sl7d3rlu3homudbpn.png"
+        src="https://res.cloudinary.com/debcgjfr8/image/upload/v1694666313/PortFolio/Portfolio%20Image%20Profile/tjfgutdfrxhvhedhhm75.webp"
         alt=""
       />
     </>
