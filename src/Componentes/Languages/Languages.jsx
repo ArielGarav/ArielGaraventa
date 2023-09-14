@@ -48,7 +48,7 @@ const Languages = () => {
         >
           <LanguagesImages
             src="https://www.svgrepo.com/show/452228/html-5.svg"
-            alt=""
+            alt="Logo HTML5"
             initial={{ y: 100 }}
             animate={{ y: 0 }}
             transition={{ duration: 1, type: "spring", stiffness: 40 }}
@@ -57,26 +57,28 @@ const Languages = () => {
           <LanguagesImages
             src="https://www.svgrepo.com/show/452185/css-3.svg"
             whileHover={{ scale: 1.3 }}
-            alt=""
+            alt="Logo CSS"
           />
           <LanguagesImages
             src="https://www.svgrepo.com/show/452045/js.svg"
             whileHover={{ scale: 1.3 }}
-            alt=""
+            alt="Logo JavaScript"
           />
           <LanguagesImages
             src="https://www.svgrepo.com/show/374146/typescript-official.svg"
             whileHover={{ scale: 1.3 }}
-            alt=""
+            alt="Logo Typescript"
           />
           <LanguagesImages
             src="https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg"
             whileHover={{ scale: 1.3 }}
+            alt="Logo React"
           />
           <LanguagesImages
             src="https://www.svgrepo.com/show/376337/node-js.svg"
             whileHover={{ scale: 1.3 }}
             style={{ background: "white", borderRadius: "50%" }}
+            alt="Logo Node JS"
           />
           <LanguagesImages
             src="https://www.svgrepo.com/show/303232/mongodb-logo.svg"
@@ -86,23 +88,25 @@ const Languages = () => {
               borderRadius: "50%",
               padding: "4px",
             }}
+            alt="Logo Mongo DB"
           />
           <LanguagesImages
             src="https://www.svgrepo.com/show/303251/mysql-logo.svg"
             whileHover={{ scale: 1.3 }}
             style={{ background: "white", borderRadius: "50%" }}
+            alt="Logo My SQL"
           />
           <LanguagesImages
-            src="https://www.styled-components.com/atom.png"
+            src="https://res.cloudinary.com/debcgjfr8/image/upload/v1694667313/PortFolio/Languages/ejnyqjexkngg3lkbtvhn.webp"
             whileHover={{ scale: 1.3 }}
-            alt=""
+            alt="Logo Styled Components"
           />
           <LanguagesImages
             src="https://www.svgrepo.com/show/506497/github.svg"
-            whileHover={{ scale: 1.3 }} // Efecto de escala al pasar el mouse
+            whileHover={{ scale: 1.3 }}
             style={{ background: "white", borderRadius: "50%" }}
-            alt=""
-          />{" "}
+            alt="Logo Github"
+          />
         </LanguagesImagesContainer>
       </LanguagesContainer>
     </>

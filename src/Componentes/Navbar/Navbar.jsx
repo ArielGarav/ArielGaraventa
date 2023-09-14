@@ -38,6 +38,7 @@ const Navbar = () => {
             <LILinks>
               <NavLink to={"/"}>ArielG.</NavLink>
             </LILinks>
+
             <NavContainer click={click} onClick={handleMenuToggle}>
               <div>
                 <UlLinks>
