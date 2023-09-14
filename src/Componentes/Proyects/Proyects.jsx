@@ -36,7 +36,11 @@ const Proyects = ({ data }) => {
                   <Title>
                     {project.title}
                     <Link href={project.links[0].url} target="_blank">
-                      <LinkIconCard>
+                      <LinkIconCard
+                        aria-label={`Visit ${project.title}`}
+                        href={project.links[0].url}
+                        target="_blank"
+                      >
                         <FiArrowUpRight />
                       </LinkIconCard>
                     </Link>
@@ -57,7 +61,7 @@ const Proyects = ({ data }) => {
                         {typeof tech === "object" ? (
                           <img
                             src={tech.url}
-                            alt="tech"
+                            alt={`Logo de ${tech.alt}`}
                             width="100%"
                             height="100%"
                           />
