@@ -16,7 +16,7 @@ import ButtonComponent from "../UI/buttonEmail/buttonEmail";
 import { socialLinks } from "../UI/SocialLinks/socialLinks";
 import { useLocation } from "react-router-dom";
 
-const SocialIcon = ({ href, icon, isGithub = false, alt = "" }) => {
+const SocialIcon = ({ href, label, icon, isGithub = false }) => {
   const [ref, inView] = useInView({
     triggerOnce: false,
     threshold: 0.2,
@@ -39,8 +39,9 @@ const SocialIcon = ({ href, icon, isGithub = false, alt = "" }) => {
         transition: "transform 0.1s",
       }}
       whileHover={{ scale: 1.3 }}
+      aria-label={label} // Proporciona una etiqueta descriptiva para el enlace
     >
-      {isGithub ? <img src={icon} alt={alt} /> : icon}
+      {isGithub ? <img src={icon} alt={label} /> : icon}
     </motion.a>
   );
 };
@@ -63,19 +64,19 @@ const Contact = () => {
         <ContactContainer>
           <SocialIcon
             href={socialLinks.Twitter}
-            alt="Twitter"
+            label="Twitter"
             icon={<AiOutlineTwitter />}
           />
           <SocialIcon
             href={socialLinks.Github}
+            label="GitHub"
             icon={<AiOutlineGithub />}
             isGithub={true}
-            alt="GitHub"
           />
           <SocialIcon
             href={socialLinks.Linkedin}
+            label="LinkedIn"
             icon={<AiOutlineLinkedin />}
-            alt="LinkedIn"
           />
         </ContactContainer>
       </TotalContactContainer>
