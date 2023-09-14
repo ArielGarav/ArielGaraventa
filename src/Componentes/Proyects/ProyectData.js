@@ -6,6 +6,7 @@ const projectData = [
     links: [
       {
         url: "https://oinkbankapp.vercel.app/",
+        alt: "Bank Oink",
       },
     ],
     technologies: [
@@ -31,6 +32,7 @@ const projectData = [
     links: [
       {
         url: "https://proyecto-integrador-navy.vercel.app/",
+        alt: "Crazy Fishing",
       },
     ],
     technologies: [
@@ -51,6 +53,7 @@ const projectData = [
     links: [
       {
         url: "https://integrador-react-olive.vercel.app/",
+        alt: "Styled Shoes",
       },
     ],
     technologies: [
@@ -80,6 +83,7 @@ const projectData = [
     links: [
       {
         url: "https://traductor-con-6mhcl5dtk-arielgarav.vercel.app",
+        alt: "Translate Api",
       },
     ],
     technologies: [
