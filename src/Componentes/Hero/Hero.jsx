@@ -31,7 +31,7 @@ const HeroPic = styled.div`
 const ContainerTypComponent = styled.div`
   display: flex;
   align-items: center;
-  h5 {
+  p {
     font-size: 20px;
     color: white;
   }
@@ -176,7 +176,7 @@ const Hero = () => {
         </HeroPic>
         <HeroText>
           <ContainerTypComponent>
-            <h5>Hi I'm Web Developer</h5>
+            <p>Hi I'm Web Developer</p>
             <TypingComponent />
           </ContainerTypComponent>
 

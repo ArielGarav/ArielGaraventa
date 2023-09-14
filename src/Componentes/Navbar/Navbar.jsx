@@ -31,9 +31,9 @@ const Navbar = () => {
     <>
       <StyledNavbar>
         <motion.div
-          initial={{ y: -100 }} // Posición inicial arriba
-          animate={{ y: 0 }} // Posición final
-          transition={{ type: "spring", stiffness: 50 }} // Tipo y configuración de transición
+          initial={{ y: -100 }}
+          animate={{ y: 0 }}
+          transition={{ type: "spring", stiffness: 50 }}
         >
           <NavMenu>
             <ArielLogoLinks>
