@@ -33,13 +33,13 @@ const SocialIcon = ({ href, label, icon, isGithub = false }) => {
       style={{
         fontSize: "40px",
         fontWeight: "bold",
-        color: isGithub ? "#ffffff" : "#97FEED",
+        color: "#97FEED",
         textAlign: "center",
         textDecoration: "none",
         transition: "transform 0.1s",
       }}
       whileHover={{ scale: 1.3 }}
-      aria-label={label} // Proporciona una etiqueta descriptiva para el enlace
+      aria-label={label}
     >
       {isGithub ? <img src={icon} alt={label} /> : icon}
     </motion.a>
@@ -71,7 +71,6 @@ const Contact = () => {
             href={socialLinks.Github}
             label="GitHub"
             icon={<AiOutlineGithub />}
-            isGithub={true}
           />
           <SocialIcon
             href={socialLinks.Linkedin}

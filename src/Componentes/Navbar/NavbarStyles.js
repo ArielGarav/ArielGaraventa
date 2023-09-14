@@ -45,9 +45,23 @@ export const UlLinks = styled.ul`
     flex-direction: column;
   }
 `;
-
+export const ArielLogoLinks = styled.h2`
+  list-style: none;
+  height: 100%;
+  --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+  --transform: rotate(-90deg);
+  .menu__item:hover {
+    --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    --transform: rotate(0);
+  }
+  @media screen and (max-width: 1310px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+`;
 export const LILinks = styled.li`
-  //menu__item
   list-style: none;
   height: 100%;
   --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -65,7 +79,6 @@ export const LILinks = styled.li`
 `;
 
 export const NavLink = styled(Link)`
-  //menu__link
   color: #ffff;
   text-decoration: none;
   padding: 0 30px;

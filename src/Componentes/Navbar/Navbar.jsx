@@ -8,6 +8,7 @@ import {
   NavLink,
   NavMenu,
   UlLinks,
+  ArielLogoLinks,
 } from "./NavbarStyles";
 
 const StyledNavbar = styled.div`
@@ -35,9 +36,9 @@ const Navbar = () => {
           transition={{ type: "spring", stiffness: 50 }} // Tipo y configuración de transición
         >
           <NavMenu>
-            <LILinks>
+            <ArielLogoLinks>
               <NavLink to={"/"}>ArielG.</NavLink>
-            </LILinks>
+            </ArielLogoLinks>
 
             <NavContainer click={click} onClick={handleMenuToggle}>
               <div>
