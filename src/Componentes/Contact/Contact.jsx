@@ -16,7 +16,7 @@ import ButtonComponent from "../UI/buttonEmail/buttonEmail";
 import { socialLinks } from "../UI/SocialLinks/socialLinks";
 import { useLocation } from "react-router-dom";
 
-const SocialIcon = ({ href, icon, isGithub = false }) => {
+const SocialIcon = ({ href, icon, isGithub = false, alt = "" }) => {
   const [ref, inView] = useInView({
     triggerOnce: false,
     threshold: 0.2,
