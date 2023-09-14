@@ -97,7 +97,7 @@ const Languages = () => {
             alt="Logo My SQL"
           />
           <LanguagesImages
-            src="https://res.cloudinary.com/debcgjfr8/image/upload/v1694667313/PortFolio/Languages/ejnyqjexkngg3lkbtvhn.webp"
+            src="https://res.cloudinary.com/debcgjfr8/image/upload/f_auto,q_auto/v1/PortFolio/Languages/vmqkb4orpdskduw3krhk"
             whileHover={{ scale: 1.3 }}
             alt="Logo Styled Components"
           />

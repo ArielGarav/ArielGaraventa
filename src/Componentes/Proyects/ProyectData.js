@@ -49,7 +49,7 @@ const projectData = [
           padding: "4px",
         },
       },
-      "https://res.cloudinary.com/debcgjfr8/image/upload/v1694667313/PortFolio/Languages/ejnyqjexkngg3lkbtvhn.webp",
+      "https://res.cloudinary.com/debcgjfr8/image/upload/f_auto,q_auto/v1/PortFolio/Languages/vmqkb4orpdskduw3krhk",
     ],
   },
   {
