@@ -207,7 +207,7 @@ const Hero = () => {
             <SocialLink1
               href={socialLinks.Github}
               target="_blank"
-              alt="Logo Github"
+              aria-label="GitHub"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -221,7 +221,7 @@ const Hero = () => {
             <SocialLink2
               href={socialLinks.Linkedin}
               target="_blank"
-              alt="Logo Linkedin"
+              aria-label="Linkedin"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

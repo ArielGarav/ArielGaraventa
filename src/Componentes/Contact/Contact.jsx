@@ -35,21 +35,20 @@ const SocialIcon = ({ href, icon, isGithub = false }) => {
         fontWeight: "bold",
         color: isGithub ? "#ffffff" : "#97FEED",
         textAlign: "center",
-        textDecoration: "none", // Agregar otros estilos si es necesario
-        transition: "transform 0.1s", // Reducir la duración de la transición
+        textDecoration: "none",
+        transition: "transform 0.1s",
       }}
-      // Aplicar escala en hover
       whileHover={{ scale: 1.3 }}
     >
-      {icon}
+      {isGithub ? <img src={icon} alt={alt} /> : icon}
     </motion.a>
   );
 };
 
 const Contact = () => {
-  const location = useLocation(); // Obtiene la ruta actual
+  const location = useLocation();
 
-  const isContactRoute = location.pathname === "/Contact"; // Verifica si la ruta es "/Contact"
+  const isContactRoute = location.pathname === "/Contact";
 
   return (
     <>
@@ -62,15 +61,21 @@ const Contact = () => {
         </CreateIdeasText>
         <ButtonComponent />
         <ContactContainer>
-          <SocialIcon href={socialLinks.Twitter} icon={<AiOutlineTwitter />} />
+          <SocialIcon
+            href={socialLinks.Twitter}
+            alt="Twitter"
+            icon={<AiOutlineTwitter />}
+          />
           <SocialIcon
             href={socialLinks.Github}
             icon={<AiOutlineGithub />}
             isGithub={true}
+            alt="GitHub"
           />
           <SocialIcon
             href={socialLinks.Linkedin}
             icon={<AiOutlineLinkedin />}
+            alt="LinkedIn"
           />
         </ContactContainer>
       </TotalContactContainer>
