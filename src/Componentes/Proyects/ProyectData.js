@@ -2,16 +2,25 @@ const projectData = [
   {
     title: "Bank Oink",
     description:
-      " Página oficial de Bank Oink. Desarrollada junto con mi equipo y emprendimiento.",
+      "Página oficial de Bank Oink. Desarrollada junto con mi equipo y emprendimiento.",
     links: [
       {
         url: "https://oinkbankapp.vercel.app/",
       },
     ],
     technologies: [
-      "https://www.svgrepo.com/show/452228/html-5.svg",
-      "https://www.svgrepo.com/show/452185/css-3.svg",
-      "https://www.svgrepo.com/show/452045/js.svg",
+      {
+        url: "https://www.svgrepo.com/show/452228/html-5.svg",
+        alt: "HTML5 Logo",
+      },
+      {
+        url: "https://www.svgrepo.com/show/452185/css-3.svg",
+        alt: "CSS3 Logo",
+      },
+      {
+        url: "https://www.svgrepo.com/show/452045/js.svg",
+        alt: "JavaScript Logo",
+      },
     ],
   },
 
@@ -25,9 +34,14 @@ const projectData = [
       },
     ],
     technologies: [
-      "https://www.svgrepo.com/show/452228/html-5.svg",
-      "https://www.svgrepo.com/show/452185/css-3.svg",
-      ,
+      {
+        url: "https://www.svgrepo.com/show/452228/html-5.svg",
+        alt: "HTML5 Logo",
+      },
+      {
+        url: "https://www.svgrepo.com/show/452185/css-3.svg",
+        alt: "CSS3 Logo",
+      },
     ],
   },
   {
@@ -40,7 +54,10 @@ const projectData = [
       },
     ],
     technologies: [
-      "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+      {
+        url: "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+        alt: "React Logo",
+      },
       {
         url: "https://www.svgrepo.com/show/303232/mongodb-logo.svg",
         styles: {
@@ -48,8 +65,12 @@ const projectData = [
           borderRadius: "50%",
           padding: "4px",
         },
+        alt: "MongoDB Logo",
       },
-      "https://res.cloudinary.com/debcgjfr8/image/upload/f_auto,q_auto/v1/PortFolio/Languages/vmqkb4orpdskduw3krhk",
+      {
+        url: "https://res.cloudinary.com/debcgjfr8/image/upload/f_auto,q_auto/v1/PortFolio/Languages/vmqkb4orpdskduw3krhk",
+        alt: "Styled Components",
+      },
     ],
   },
   {
@@ -62,9 +83,18 @@ const projectData = [
       },
     ],
     technologies: [
-      "https://www.svgrepo.com/show/452228/html-5.svg",
-      "https://www.svgrepo.com/show/452185/css-3.svg",
-      "https://www.svgrepo.com/show/452045/js.svg",
+      {
+        url: "https://www.svgrepo.com/show/452228/html-5.svg",
+        alt: "HTML5 Logo",
+      },
+      {
+        url: "https://www.svgrepo.com/show/452185/css-3.svg",
+        alt: "CSS3 Logo",
+      },
+      {
+        url: "https://www.svgrepo.com/show/452045/js.svg",
+        alt: "JavaScript Logo",
+      },
     ],
   },
 ];
