@@ -2,7 +2,7 @@ const projectData = [
   {
     title: "Bank Oink",
     description:
-      "Página oficial de Bank Oink. Desarrollada junto con mi equipo y emprendimiento.",
+      "Bank Oink official website. Developed together with my team and entrepreneurship.",
     links: [
       {
         url: "https://oinkbankapp.vercel.app/",
@@ -28,7 +28,7 @@ const projectData = [
   {
     title: "Crazy Fishing",
     description:
-      "Página oficial de Crazy Fishing. Desarrollada Por mi como entrega final del modulo Css",
+      "Crazy Fishing official website. Developed by me as the final delivery of the CSS module",
     links: [
       {
         url: "https://proyecto-integrador-navy.vercel.app/",
@@ -49,7 +49,7 @@ const projectData = [
   {
     title: "Styled Shoes",
     description:
-      "Página oficial de Styled Shoes. Desarrollada Por mi como entrega final del modulo React",
+      "Styled Shoes official website. Developed by me as the final delivery of the React module",
     links: [
       {
         url: "https://integrador-react-olive.vercel.app/",
@@ -79,7 +79,7 @@ const projectData = [
   {
     title: "Translate Api",
     description:
-      "Página oficial de Translate Api. Desarrollada Por mi como Practica de Api`S",
+      "Translate Api official page. Developed by me as an Api`S Practice",
     links: [
       {
         url: "https://traductor-con-6mhcl5dtk-arielgarav.vercel.app",

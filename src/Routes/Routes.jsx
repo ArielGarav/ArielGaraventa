@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../Componentes/Layout/Layout";
 import { Route, Routes as ReactDomRoutes } from "react-router";
+import HeroLanding from "../Componentes/HeroLanding/HeroLanding";
 
 const Routes = () => {
   return (
