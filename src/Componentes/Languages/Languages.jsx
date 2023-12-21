@@ -102,6 +102,11 @@ const Languages = () => {
             alt="Logo Styled Components"
           />
           <LanguagesImages
+            src="https://www.svgrepo.com/show/452136/wordpress.svg"
+            whileHover={{ scale: 1.3 }}
+            alt="Logo Wordpress"
+          />
+          <LanguagesImages
             src="https://www.svgrepo.com/show/506497/github.svg"
             whileHover={{ scale: 1.3 }}
             style={{ background: "white", borderRadius: "50%" }}

@@ -12,7 +12,7 @@ export const TotalContactContainer = styled.div`
     margin-top: 140px;
   }
   @media (max-width: 428px) {
-    margin-bottom: 15px;
+    margin-bottom: 55px;
   }
 `;
 export const ContactContainer = styled.div`
