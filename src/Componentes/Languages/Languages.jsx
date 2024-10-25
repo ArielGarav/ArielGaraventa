@@ -112,6 +112,27 @@ const Languages = () => {
             style={{ background: "white", borderRadius: "50%" }}
             alt="Logo Github"
           />
+          <LanguagesImages
+  src="https://www.svgrepo.com/show/353464/azure.svg"
+  whileHover={{ scale: 1.3 }}
+  alt="Logo Microsoft Azure"
+/>
+<LanguagesImages
+  src="https://www.svgrepo.com/show/452062/microsoft.svg"
+  whileHover={{ scale: 1.3 }}
+  alt="Logo Microsoft"
+/>
+<LanguagesImages
+  src="https://www.vectorlogo.zone/logos/azurefunctions/azurefunctions-icon.svg"
+  whileHover={{ scale: 1.3 }}
+  alt="Logo Azure Functions"
+/>
+
+<LanguagesImages
+  src="https://img.icons8.com/?size=100&id=84280&format=png&color=000000"
+  whileHover={{ scale: 1.3 }}
+  alt="Logo Azure Storage"
+/>
         </LanguagesImagesContainer>
       </LanguagesContainer>
     </>

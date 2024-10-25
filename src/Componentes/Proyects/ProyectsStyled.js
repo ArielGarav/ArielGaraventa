@@ -7,14 +7,17 @@ export const CenteredContainer = styled.div`
   flex-direction: column;
   min-height: 100vh;
   gap: 5px;
-  @media (max-width: 640px) {
-    margin-top: 60px;
-  }
+  margin-top: 60px;
+
 `;
 export const TitleProyects = styled.h1`
   font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center; /* Centra el texto */
+  word-spacing: 0.3rem; /* Ajusta el espaciado entre palabras */
+    line-height: 1.2; /* Ajusta la altura de línea para mayor separación vertical */
+
 `;
 
 export const Subtitle = styled.h2`

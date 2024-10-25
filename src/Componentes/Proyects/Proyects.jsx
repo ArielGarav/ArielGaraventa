@@ -18,7 +18,7 @@ const Proyects = ({ data }) => {
 
   return (
     <CenteredContainer>
-      <TitleProyects>Projects</TitleProyects>
+      <TitleProyects>Projects and Professional Experience</TitleProyects>
       <Subtitle>Here Are My Main Projects</Subtitle>
       <Wrapper>
         {data &&
