@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ProfileImage from "../ProfileImage/ProfileImage";
+import ProfileImage from "../ProfileImage/ProfileImage"
 import TypingComponent from "../Typing/TypingComponent/TypingComponent";
 import { keyframes } from "styled-components";
 import Languages from "../Languages/Languages";
@@ -172,7 +172,8 @@ const Hero = () => {
     <>
       <Container>
         <HeroPic>
-          <ProfileImage />
+          
+          <ProfileImage/>
         </HeroPic>
         <HeroText>
           <ContainerTypComponent>

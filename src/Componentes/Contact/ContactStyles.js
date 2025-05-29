@@ -8,11 +8,7 @@ export const TotalContactContainer = styled.div`
   gap: 40px;
   height: 40vh;
   width: 100%;
-  @media (max-width: 600px) {
-    margin-top: 140px;
-  }
-  @media (max-width: 428px) {
-    margin-bottom: 55px;
+  margin-top: 140px;
   }
 `;
 export const ContactContainer = styled.div`
