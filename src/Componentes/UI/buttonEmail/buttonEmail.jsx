@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 // Estilo del contenedor del botón con animación

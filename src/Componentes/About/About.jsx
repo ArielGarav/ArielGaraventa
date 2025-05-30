@@ -1,21 +1,55 @@
-import React from "react";
 import {
   AboutParrafo,
   AboutTitle,
   AboutContainer,
   AboutTotalContainer,
 } from "./AboutStyles";
+import { motion } from "framer-motion";
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.3,
+    },
+  },
+};
+
+const paragraphVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 50 } },
+};
 
 const AboutMe = () => {
   return (
     <AboutTotalContainer>
       <AboutTitle>About Me</AboutTitle>
-      <AboutContainer>
-        <AboutParrafo>
-          I'm Ariel Garaventa, a 23-year-old Full Stack Web Developer with a year of experience in building dynamic and responsive web applications. I specialize in React, Node.js, and MongoDB, and have extensive experience with WordPress and WooCommerce for creating and optimizing e-commerce platforms. Recently, I earned the Microsoft Certified: Azure Fundamentals (AZ-900) certification, expanding my expertise into cloud computing.
+      <AboutContainer
+        as={motion.div}
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <AboutParrafo as={motion.p} variants={paragraphVariants}>
+          Tech professional with hands-on experience in IT Support, Cloud
+          Administration, and Web Development. I&apos;ve worked in corporate
+          environments managing Microsoft 365, Entra ID (formerly Azure AD),
+          MFA, and user access for distributed teams, while also supporting
+          infrastructure across multiple sites.
         </AboutParrafo>
-        <AboutParrafo>
-          I am available for full-time work and eager to learn, with no issues in training for any areas where I need improvement. My goal is to continue growing professionally in the tech field, contributing to innovative projects while deepening my skills in cloud infrastructure, web development, and e-commerce solutions. I’m passionate about learning, solving problems, and constantly evolving to meet new challenges.
+        <AboutParrafo as={motion.p} variants={paragraphVariants}>
+          With a strong foundation in Full Stack Web Development (MERN), I bring
+          a versatile skill set that bridges systems and applications. I&apos;m
+          certified in Microsoft Azure Fundamentals (AZ-900) and passionate
+          about growing into cloud and cybersecurity roles.
+        </AboutParrafo>
+        <AboutParrafo as={motion.p} variants={paragraphVariants}>
+          I thrive in dynamic environments, solving technical challenges,
+          documenting infrastructure, and helping teams run efficiently.
+          Currently, I&apos;m looking for new full-time opportunities to
+          continue building my career in Cloud Infrastructure, SysAdmin, or IT
+          Operations—while always learning and pushing myself forward.
         </AboutParrafo>
       </AboutContainer>
     </AboutTotalContainer>

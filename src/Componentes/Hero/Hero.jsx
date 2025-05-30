@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import ProfileImage from "../ProfileImage/ProfileImage";
 import TypingComponent from "../Typing/TypingComponent/TypingComponent";
@@ -179,7 +178,7 @@ const Hero = () => {
         </HeroPic>
         <HeroText>
           <ContainerTypComponent>
-            <p>Hi I'm Web Developer</p>
+            <p>Hi I&apos;m Web Developer</p>
             <TypingComponent />
           </ContainerTypComponent>
 

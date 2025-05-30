@@ -9,6 +9,7 @@ export const AboutContainer = styled.div`
   border: 2px solid #97feed;
   margin: 20px;
   border-radius: 50px;
+  margin-top: 50px;
 `;
 export const AboutTitle = styled.h1`
   text-align: center;
