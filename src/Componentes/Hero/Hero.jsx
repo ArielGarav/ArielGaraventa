@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ProfileImage from "../ProfileImage/ProfileImage"
+import ProfileImage from "../ProfileImage/ProfileImage";
 import TypingComponent from "../Typing/TypingComponent/TypingComponent";
 import { keyframes } from "styled-components";
 import Languages from "../Languages/Languages";
@@ -151,7 +151,10 @@ const Shape = styled.svg`
   fill: transparent;
   stroke: #97feed;
   stroke-width: 5px;
-  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+  transition:
+    stroke-width 1s,
+    stroke-dashoffset 1s,
+    stroke-dasharray 1s;
 
   ${SvgWrapper}:hover & {
     stroke-width: 2px;
@@ -172,8 +175,7 @@ const Hero = () => {
     <>
       <Container>
         <HeroPic>
-          
-          <ProfileImage/>
+          <ProfileImage />
         </HeroPic>
         <HeroText>
           <ContainerTypComponent>

@@ -8,7 +8,7 @@ export const TotalContactContainer = styled.div`
   gap: 40px;
   height: 40vh;
   width: 100%;
-  margin-top: 140px;
+  margin-top: 100px;
   }
 `;
 export const ContactContainer = styled.div`
