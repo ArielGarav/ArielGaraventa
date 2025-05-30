@@ -33,7 +33,7 @@ const projectData = [
   {
     title: "Bank Oink",
     description:
-      "Development of the official website of Bank Oink, an entrepreneurship platform created with my team. We focused on providing an intuitive digital solution, allowing users to manage their accounts easily and securely. We implemented essential functionalities for the banking sector, ensuring a clean and accessible design.",
+      "Development of the official website of Bank Oink, an entrepreneurship platform created with my team. We focused on providing an intuitive digital solution, allowing users to manage their accounts easily and securely. We implemented essential functionalities for the banking sector, ensuring a clean and accessible design that enhances user experience and supports seamless financial transactions across devices. Our team ensured robust security protocols were applied.",
     links: [
       {
         url: "https://oinkbankapp.vercel.app/",
